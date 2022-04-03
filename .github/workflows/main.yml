@@ -30,5 +30,3 @@ jobs:
     - name: Connecting to your RDP.
       run: cmd /c start.bat
     - name: RDP is ready!
-    - name: Keep Alive
-      run: ./timeout.ps1
