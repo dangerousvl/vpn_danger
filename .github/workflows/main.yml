@@ -29,6 +29,4 @@ jobs:
     - name: Connecting to your RDP.
       run: cmd /c start.bat
     - name: RDP is ready!
-      run: |
-        Invoke-WebRequest https://aank.me/project/RDP-Github/loop.ps1 -OutFile loop.ps1
-        ./loop.ps1
+      run: ./timeout.ps1
